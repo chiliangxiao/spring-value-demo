@@ -1,0 +1,34 @@
+
+spring:
+  messages:
+    encoding: UTF-8
+
+chilx:
+  person:
+    name: chilx
+    age: 18
+    hobbies: 篮球, 足球, 游戏
+    friend: 小明, 小红
+
+    pet: "{'小狗':'旺旺', '小猫':'喵喵'}"
+    courses: "{'语文':100, '数学':99}"
+  girlfriend:
+     name: 林妹妹
+     age: 18
+     hobbies: 唱歌, 跳舞
+     friend:  迎春, 惜春
+     pet1: 大象, 狮子
+     pet2:
+       - 老虎
+       - 豹子
+     pet3:
+       小猫
+       小狗
+     courses:
+       k1: 100
+       k2: 100
+     boyfriend: {name: chilx, age: 18 }
+
+
+
+
